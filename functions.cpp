@@ -1,5 +1,5 @@
 /**
- * Started by Najib 3/21/18
+ * Authors: Evan Wildenhain & John Sullivan.
  **/
 #include "functions.h"
 #include "bigint/bigint.h"
@@ -28,7 +28,6 @@ std::vector<int> frequency::freqValue(std::ifstream &infile)
                 b[0] = b[1];
                 b[1] = b[2];
                 b[2] = ch;
-                std::cout<<b[0] << b[1] << b[2] << ",";
             }
             result = 0 , n++;
        }
