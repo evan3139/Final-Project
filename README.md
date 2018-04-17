@@ -1,5 +1,4 @@
-# Author
-Evan Wildenhain & John Sullivan
+# Authors: Evan Wildenhain & John Sullivan
 4/17/18
 
 ## About
