@@ -1,0 +1,34 @@
+/**
+ * Started by Najib 3/21/18
+ **/
+
+#ifndef __FUNCTIONS_H__
+#define __FUNCTIONS_H__
+
+///////////////////////////////////////////////////////////////////
+// INCLUDES GO HERE
+///////////////////////////////////////////////////////////////////
+#include "bigint/bigint.h"
+
+
+///////////////////////////////////////////////////////////////////
+// FUNCTION HEADERS GO HERE
+///////////////////////////////////////////////////////////////////
+
+
+class frequency
+{
+private:
+   std::vector<char> letters;
+   std::vector<int> frequencies;
+
+
+public:
+   frequency();
+   std::vector<int> freqValue(std::ifstream &infile);
+
+};
+
+
+
+#endif
